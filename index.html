@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaifCraftes | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SaifCraftes</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="card.html">Cart (<span id="cart-count">0</span>)</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Minimalist Digital Goods</h1>
+        <p>Handcrafted templates for your next project.</p>
+    </header>
+
+    <!-- Product Grid -->
+    <main class="container">
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="card">
+                <div class="card-img" style="background-color: #ff6b6b;"></div>
+                <div class="card-body">
+                    <h3>UI Kit Bundle</h3>
+                    <p class="price">$29.00</p>
+                    <button class="btn add-to-cart" data-id="1" data-name="UI Kit Bundle" data-price="29">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="card">
+                <div class="card-img" style="background-color: #4ecdc4;"></div>
+                <div class="card-body">
+                    <h3>Icon Pack</h3>
+                    <p class="price">$15.00</p>
+                    <button class="btn add-to-cart" data-id="2" data-name="Icon Pack" data-price="15">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="card">
+                <div class="card-img" style="background-color: #ffe66d;"></div>
+                <div class="card-body">
+                    <h3>Admin Dashboard</h3>
+                    <p class="price">$49.00</p>
+                    <button class="btn add-to-cart" data-id="3" data-name="Admin Dashboard" data-price="49">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="card">
+                <div class="card-img" style="background-color: #1a535c;"></div>
+                <div class="card-body">
+                    <h3>Email Templates</h3>
+                    <p class="price">$19.00</p>
+                    <button class="btn add-to-cart" data-id="4" data-name="Email Templates" data-price="19">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaifCraftes | Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SaifCraftes</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="card.html" class="active">Cart (<span id="cart-count">0</span>)</a>
+        </div>
+    </nav>
+
+    <!-- Cart Section -->
+    <main class="container">
+        <h2>Your Shopping Cart</h2>
+        <div id="cart-items" class="cart-container">
+            <!-- Cart items will be injected here by JS -->
+            <p class="empty-msg">Your cart is empty.</p>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+            <a href="index.html" class="btn">Continue Shopping</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
